@@ -1,0 +1,43 @@
+name: habitude_app
+description: Application mobile de suivi de bien-être - Module Habitudes
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI & thème
+  cupertino_icons: ^1.0.6
+  google_fonts: ^6.1.0
+  flutter_svg: ^2.0.9
+  provider: ^6.1.1
+
+  # Charts & calendrier
+  fl_chart: ^0.65.0
+  table_calendar: ^3.0.9
+
+
+  # Notifications & AlarmManager
+  flutter_local_notifications: ^17.2.3
+  timezone: ^0.9.2
+  android_alarm_manager_plus: ^5.0.0
+
+  # Utilitaires
+  intl: ^0.19.0
+  path: ^1.8.3
+  path_provider: ^2.1.1
+
+  # ✅ Base de données (remplace Drift)
+  sqflite: ^2.3.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
