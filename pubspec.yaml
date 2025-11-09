@@ -1,0 +1,49 @@
+name: bienetre
+description: "Application Flutter de suivi du bien-être, des objectifs et des notifications intelligentes."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # 📦 Base de données locale (COMMUN)
+  sqflite: ^2.3.0
+  path: ^1.9.0
+
+  # 🔒 Sécurité (hachage SHA256) - DE TON COLLÈGUE
+  crypto: ^3.0.3
+
+  # 🔔 Notifications locales - DE TON COLLÈGUE
+  flutter_local_notifications: ^17.2.4
+
+  # 📊 Graphiques et indicateurs (COMMUN)
+  fl_chart: ^0.69.0  # ✅ Version mise à jour
+  percent_indicator: ^4.2.3
+
+  # 🎨 Icônes (COMMUN)
+  cupertino_icons: ^1.0.8
+
+  # 🌍 Gestion des fuseaux horaires - DE TON COLLÈGUE
+  timezone: ^0.9.4
+
+  # 📅 Format des dates - DE TON MODULE
+  intl: ^0.18.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  # (Optionnel) Ajoute tes assets ici si tu en as
+  # assets:
+  #   - assets/images/
+  #   - assets/icons/
