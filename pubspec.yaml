@@ -1,0 +1,38 @@
+name: projet
+description: "Application mobile de suivi des repas et bien-être"
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.8
+    # Ajoutez ces 4 lignes ici :
+  sqflite: ^2.3.0          # Base de données SQLite
+  path: ^1.9.0             # Gestion des chemins
+  intl: ^0.19.0            # Format des dates
+  fl_chart: ^0.69.0        # Graphiques pour statistiques
+   
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
+
+
